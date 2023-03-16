@@ -1,0 +1,6 @@
+use Test;
+use Calendar::Jewish;
+
+pass "replace me";
+
+done-testing;

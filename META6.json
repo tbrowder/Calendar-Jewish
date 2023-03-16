@@ -1,0 +1,25 @@
+{
+  "auth": "zef:tbrowder",
+  "authors": [
+    "Tom Browder"
+  ],
+  "build-depends": [
+  ],
+  "depends": [
+  ],
+  "description": "A calendar for the Jewish faith",
+  "license": "Artistic-2.0",
+  "name": "Calendar::Jewish",
+  "perl": "6.d",
+  "provides": {
+    "Calendar::Jewish": "lib/Calendar/Jewish.rakumod"
+  },
+  "resources": [
+  ],
+  "source-url": "",
+  "tags": [
+  ],
+  "test-depends": [
+  ],
+  "version": "0.0.1"
+}
