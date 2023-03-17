@@ -1,3 +1,5 @@
+[![Actions Status](https://github.com/tbrowder/Calendar-Jewish/actions/workflows/linux.yml/badge.svg)](https://github.com/tbrowder/Calendar-Jewish/actions) [![Actions Status](https://github.com/tbrowder/Calendar-Jewish/actions/workflows/macos.yml/badge.svg)](https://github.com/tbrowder/Calendar-Jewish/actions) [![Actions Status](https://github.com/tbrowder/Calendar-Jewish/actions/workflows/windows.yml/badge.svg)](https://github.com/tbrowder/Calendar-Jewish/actions)
+
 NAME
 ====
 
