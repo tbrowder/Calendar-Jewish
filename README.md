@@ -19,11 +19,12 @@ use Calendar::Jewish;
 DESCRIPTION
 ===========
 
-**Calendar::Jewish** is a collection of calendar data suitable for *perpetual* calendar creation. (The term *perpetual* is used to to mean the source code to generate the calendar's holiday dates is valid for any given year since the code uses the documented rules for determining those dates and no additional data need be inserted in the code annually.)
+**Calendar::Jewish** is a collection of calendar data suitable for *perpetual* calendar creation. (The term *perpetual* is used to mean the source code to generate the calendar's holiday dates is valid for any given year since the code uses the documented rules for determining those dates and no additional data need be inserted in the code annually.)
 
-The following table shows the events currently available. The numbers shown are used for retrieving data for the event using the module.
+The following table shows the events currently available. The numbers shown in parentheses for the *Month* are used for retrieving data for the event using the module.
 
 <table class="pod-table">
+<caption>Jewish Holidays</caption>
 <thead><tr>
 <th>Name</th> <th>Day</th> <th>Month</th> <th>Number of days</th>
 </tr></thead>

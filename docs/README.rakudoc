@@ -2,7 +2,7 @@
 
 =head1 NAME
 
-B<Calendar::Jewish> - Provides perpetual data for religious and cultural 
+B<Calendar::Jewish> - Provides perpetual data for religious and cultural
   events for the Jewish faith
 
 B<THIS MODULE IS A WORK IN PROGRESS AND HAS NOT YET BEEN PUBLISHED>
@@ -19,19 +19,19 @@ use Calendar::Jewish;
 
 =head1 DESCRIPTION
 
-B<Calendar::Jewish> is a collection of calendar data suitable
-for I<perpetual> calendar creation. (The term I<perpetual> is
-used to to mean the source code to generate the calendar's holiday
-dates is valid for any given year since the code uses the documented
-rules for determining those dates and no additional data need be
-inserted in the code annually.)
+B<Calendar::Jewish> is a collection of calendar data suitable for
+I<perpetual> calendar creation. (The term I<perpetual> is used to mean
+the source code to generate the calendar's holiday dates is valid for
+any given year since the code uses the documented rules for
+determining those dates and no additional data need be inserted in the
+code annually.)
 
-The following table shows the events currently available. The
-numbers shown are used for retrieving data for the event
-using the module.
+The following table shows the events currently available. The numbers
+shown in parentheses for the I<Month> are used for retrieving data for
+the event using the module.
 
-=begin table
-Name | Day | Month | Number of days 
+=begin table  :caption<Jewish Holidays>
+Name | Day | Month | Number of days
 ---------
 Hanukkah | 25 | Kislev (8) | 8
 Rosh Hashana
