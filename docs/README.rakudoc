@@ -26,21 +26,14 @@ dates is valid for any given year since the code uses the documented
 rules for determining those dates and no additional data need be
 inserted in the code annually.)
 
-The following table shows the events currently available:
+The following table shows the events currently available. The
+numbers shown are used for retrieving data for the event
+using the module.
 
 =begin table
 Name | Day | Month | Number of days 
 ---------
-Hanukkah | 25 | Kislev | 8
-=end table
-
-The following table shows the same events with their respective day and 
-month numbers in the Jewish calendar for use with this module:
-
-=begin table
-Name | Day number | Month number
----------
-Hanukkah | 25 | 9
+Hanukkah | 25 | Kislev (8) | 8
 Rosh Hashana
 Yom Kippur
 Passover
@@ -48,6 +41,7 @@ Passover
 
 =head2 Data sources
 
+=item # L<https://chadbad.org>
 =item # L<https://almanac.com>
 
 =head1 SEE ALSO
