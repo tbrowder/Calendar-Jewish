@@ -5,6 +5,10 @@ NAME
 
 **Calendar::Jewish** - Provides perpetual data for religious and cultural events for the Jewish faith
 
+**THIS MODULE IS A WORK IN PROGRESS AND HAS NOT YET BEEN PUBLISHED**
+
+**COMMENTS OR SUGGESTION ARE ALWAYS WELCOMED BY THE AUTHOR**
+
 SYNOPSIS
 ========
 
@@ -15,7 +19,7 @@ use Calendar::Jewish;
 DESCRIPTION
 ===========
 
-**Calendar::Jewish** is a collection of calendar suitable for *perpetual* calendar creation. (The term *perpetual* is used to to mean the source code to generate the calendar's holiday dates is valid for any given year since the code uses the documented rules for determining those dates and no additional data need be inserted in the code annually.)
+**Calendar::Jewish** is a collection of calendar data suitable for *perpetual* calendar creation. (The term *perpetual* is used to to mean the source code to generate the calendar's holiday dates is valid for any given year since the code uses the documented rules for determining those dates and no additional data need be inserted in the code annually.)
 
 The following table shows the events currently available:
 

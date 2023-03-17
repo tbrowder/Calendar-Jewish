@@ -5,6 +5,10 @@
 B<Calendar::Jewish> - Provides perpetual data for religious and cultural 
   events for the Jewish faith
 
+B<THIS MODULE IS A WORK IN PROGRESS AND HAS NOT YET BEEN PUBLISHED>
+
+B<COMMENTS OR SUGGESTION ARE ALWAYS WELCOMED BY THE AUTHOR>
+
 =head1 SYNOPSIS
 
 =begin code :lang<raku>
@@ -15,7 +19,7 @@ use Calendar::Jewish;
 
 =head1 DESCRIPTION
 
-B<Calendar::Jewish> is a collection of calendar suitable
+B<Calendar::Jewish> is a collection of calendar data suitable
 for I<perpetual> calendar creation. (The term I<perpetual> is
 used to to mean the source code to generate the calendar's holiday
 dates is valid for any given year since the code uses the documented
