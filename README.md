@@ -20,20 +20,29 @@ DESCRIPTION
 The following table shows the events currently available:
 
 <table class="pod-table">
+<thead><tr>
+<th>Name</th> <th>Day</th> <th>Month</th> <th>Number of days</th>
+</tr></thead>
 <tbody>
-<tr> <td>Name</td> <td>Day</td> <td>Month</td> <td>Number of days</td> </tr>
+<tr> <td>Hanukkah</td> <td>25</td> <td>Kislev</td> <td>8</td> </tr>
 </tbody>
 </table>
 
 The following table shows the same events with their respective day and month numbers in the Jewish calendar for use with this module:
 
 <table class="pod-table">
+<thead><tr>
+<th>Name</th> <th>Day number</th> <th>Month number</th>
+</tr></thead>
 <tbody>
-<tr> <td>Name</td> <td>Day number</td> <td>Month number</td> </tr>
+<tr> <td>Hanukkah</td> <td>25</td> <td>9</td> </tr> <tr> <td>Rosh Hashana</td> <td></td> <td></td> </tr> <tr> <td>Yom Kippur</td> <td></td> <td></td> </tr> <tr> <td>Passover</td> <td></td> <td></td> </tr>
 </tbody>
 </table>
 
-currently available:
+Data sources
+------------
+
+  * [https://almanac.com](https://almanac.com)
 
 SEE ALSO
 ========

@@ -27,6 +27,7 @@ The following table shows the events currently available:
 =begin table
 Name | Day | Month | Number of days 
 ---------
+Hanukkah | 25 | Kislev | 8
 =end table
 
 The following table shows the same events with their respective day and 
@@ -35,9 +36,15 @@ month numbers in the Jewish calendar for use with this module:
 =begin table
 Name | Day number | Month number
 ---------
+Hanukkah | 25 | 9
+Rosh Hashana
+Yom Kippur
+Passover
 =end table
 
-currently available:
+=head2 Data sources
+
+=item # L<https://almanac.com>
 
 =head1 SEE ALSO
 
