@@ -3,7 +3,7 @@
 NAME
 ====
 
-**Calendar::Jewish** - A calendar for the Jewish faith
+**Calendar::Jewish** - Provides perpetual data for religious and cultural events for the Jewish faith
 
 SYNOPSIS
 ========
@@ -15,7 +15,44 @@ use Calendar::Jewish;
 DESCRIPTION
 ===========
 
-**Calendar::Jewish** is ...
+**Calendar::Jewish** is a collection of calendar suitable for *perpetual* calendar creation. (The term *perpetual* is used to to mean the source code to generate the calendar's holiday dates is valid for any given year since the code uses the documented rules for determining those dates and no additional data need be inserted in the code annually.)
+
+The following table shows the events currently available:
+
+<table class="pod-table">
+<tbody>
+<tr> <td>Name</td> <td>Day</td> <td>Month</td> <td>Number of days</td> </tr>
+</tbody>
+</table>
+
+The following table shows the same events with their respective day and month numbers in the Jewish calendar for use with this module:
+
+<table class="pod-table">
+<tbody>
+<tr> <td>Name</td> <td>Day number</td> <td>Month number</td> </tr>
+</tbody>
+</table>
+
+currently available:
+
+SEE ALSO
+========
+
+Related Raku modules by the author:
+
+  * **Date::Christian::Advent**
+
+  * **Date::Easter**
+
+  * **Holidays::US::Federal**
+
+  * **Calendar**
+
+  * **Calendar::Christian**
+
+  * **Date::Event**
+
+  * **Date::Utils**
 
 AUTHOR
 ======

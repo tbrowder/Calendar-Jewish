@@ -2,7 +2,8 @@
 
 =head1 NAME
 
-B<Calendar::Jewish> - A calendar for the Jewish faith
+B<Calendar::Jewish> - Provides perpetual data for religious and cultural 
+  events for the Jewish faith
 
 =head1 SYNOPSIS
 
@@ -14,7 +15,42 @@ use Calendar::Jewish;
 
 =head1 DESCRIPTION
 
-B<Calendar::Jewish> is ...
+B<Calendar::Jewish> is a collection of calendar suitable
+for I<perpetual> calendar creation. (The term I<perpetual> is
+used to to mean the source code to generate the calendar's holiday
+dates is valid for any given year since the code uses the documented
+rules for determining those dates and no additional data need be
+inserted in the code annually.)
+
+The following table shows the events currently available:
+
+=begin table
+Name | Day | Month | Number of days 
+---------
+=end table
+
+The following table shows the same events with their respective day and 
+month numbers in the Jewish calendar for use with this module:
+
+=begin table
+Name | Day number | Month number
+---------
+=end table
+
+currently available:
+
+=head1 SEE ALSO
+
+Related Raku modules by the author:
+
+=item B<Date::Christian::Advent>
+=item B<Date::Easter>
+=item B<Holidays::US::Federal>
+=item B<Calendar>
+=item B<Calendar::Christian>
+=item B<Date::Event>
+=item B<Date::Utils>
+
 
 =head1 AUTHOR
 
