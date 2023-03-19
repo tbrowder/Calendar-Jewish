@@ -6,6 +6,10 @@
   "build-depends": [
   ],
   "depends": [
+    "Date::Calendar::Hebrew",
+    "Text::Utils",
+    "Date::Utils",
+    "Date::Event"
   ],
   "description": "A calendar for the Jewish faith",
   "license": "Artistic-2.0",
