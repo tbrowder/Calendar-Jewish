@@ -6,7 +6,8 @@ if not @*ARGS.elems {
     print qq:to/HERE/;
     Usage: {$*PROGRAM.basename} go
 
-    Exercises module 'Date::Calendar::Hebrew'.
+    Exercises module 'Date::Calendar::Hebrew'
+      to determine Gregorian Date for Hanukkah I.
     HERE
     exit;
 }

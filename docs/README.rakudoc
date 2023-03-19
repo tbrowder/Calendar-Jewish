@@ -31,9 +31,12 @@ of varying length. It is a I<lunisolar> calendar and varies
 considerably from year-to-year compared to the Gregorian calendar.
 The following tables show the data used in this module. Names are from
 the I<Academy> rules which are promulgated by the Israeli government.
+Table 2 lists the month names and abbreviations used by Raku module
+B<Date::Calendar::Hebrew> which is used by this module for
+calculating the Gregorian Date from the Jewish date.
 
 
-=begin table  :caption<1. Jewish Year>
+=begin table  :caption<1. Jewish Year (Academy)>
 Number | Month
 ---------
  1  | Nisan
@@ -47,13 +50,30 @@ Number | Month
  9  | Kislev
  10 | Tevet
  11 | Shvat
- 12 | Adar (I/II)
+ 12 | Adar
+=end table
+
+=begin table  :caption<2. Jewish Year (from Raku module)>
+Number | Month | Abbreviation
+---------
+ 1  | Nisan   | Nis
+ 2  | Iyar    | Iya
+ 3  | Sivan   | Siv
+ 4  | Tamuz   | Tam
+ 5  | Av      | Siv
+ 6  | Elul    | Elu
+ 7  | Tishrey | Tis
+ 8  | Heshvan | Hes
+ 9  | Kislev  | Kis
+ 10 | Tevet   | Shv
+ 11 | Shvat   | Shv
+ 12 | Adar    | Ada
 =end table
 
 The following table shows the events currently available. They are in
 the order they occur in the Jewish year.
 
-=begin table  :caption<2. Jewish Holidays>
+=begin table  :caption<3. Jewish Holidays>
 Name | Note | Day | Month | Number of days
 ---------
 Rosh Hashana   | Jewish New Year        | Tishrei    | 2
@@ -70,6 +90,7 @@ Tish'a B'Av    |                        | Av         | 1
 
 =head2 Data sources
 
+=item # L<https://github.com/jforget/raku-Date-Calendar-Hebrew>
 =item # L<https://en.m.wikipedia.org/wiki/Hebrew_calendar>
 =item # L<https://hebcal.com>
 =item # L<https://chadbad.org>
