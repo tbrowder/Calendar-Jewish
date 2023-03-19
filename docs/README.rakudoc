@@ -26,32 +26,46 @@ any given year since the code uses the documented rules for
 determining those dates and no additional data need be inserted in the
 code annually.)
 
-The Jewish year is comprised of X weeks of seven days and X months 
-for a total of X days as shown in the following tables.
+The Jewish year is comprised of seven-day weeks diveded into 12 months
+of varying length. It is a I<lunisolar> calendar and varies
+considerably from year-to-year compared to the Gregorian calendar.
+The following tables show the data used in this module. Names are from
+the I<Academy> rules which are promulgated by the Israeli government.
 
-=begin table  :caption<Jewish Year>
-Number | Month | 
+
+=begin table  :caption<1. Jewish Year>
+Number | Month
 ---------
+ 1  | Nisan
+ 2  | Iyyar
+ 3  | Sivan
+ 4  | Tammuz
+ 5  | Av
+ 6  | Elul
+ 7  | Tishri
+ 8  | Marheshvan
+ 9  | Kislev
+ 10 | Tevet
+ 11 | Shvat
+ 12 | Adar (I/II)
 =end table
 
-The 
-The following table shows the events currently available. The numbers
-shown in parentheses for the I<Month> are used for retrieving data for
-the event using the module.
+The following table shows the events currently available. They are in
+the order they occur in the Jewish year.
 
-=begin table  :caption<Jewish Holidays>
+=begin table  :caption<2. Jewish Holidays>
 Name | Note | Day | Month | Number of days
 ---------
-Rosh Hashana | Jewish New Year | 1 | Tishrei | 2
-Yom Kippur | Day of Atonement | 10 | Tishrei | 1
-Sukkot | Feast of Tabernacles | 15 ¥ Tishrei | 7 
-Shmini Atzeret | Eighth Day of Assembly | 22 | Tishrei | 1
-Simchat Torah | | 23 | Tishrei | 1
-Hanukkah | Chanukah | 25 | Kislev (8) | 8
-Purim | | 14 | Adar II | 1
-Pesach | Passover | 15 | Nisan | 9
-Shavuot | Festival of Weeks | | 6 | Sivan | 2
-Tish'a B'Av | | 9 | Av | 1
+Rosh Hashana   | Jewish New Year        | Tishrei    | 2
+Yom Kippur     | Day of Atonement       | Tishrei    | 1
+Sukkot         | Feast of Tabernacles   | Tishrei    | 7
+Shmini Atzeret | Eighth Day of Assembly | Tishrei    | 1
+Simchat Torah  |                        | Tishrei    | 1
+Hanukkah       | Chanukah               | Kislev     | 8
+Purim          |                        | Adar II    | 1
+Pesach         | Passover               | Nisan      | 9
+Shavuot        | Festival of Weeks      | Sivan      | 2
+Tish'a B'Av    |                        | Av         | 1
 =end table
 
 =head2 Data sources
