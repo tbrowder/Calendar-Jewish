@@ -31,13 +31,18 @@ shown in parentheses for the I<Month> are used for retrieving data for
 the event using the module.
 
 =begin table  :caption<Jewish Holidays>
-Name | Day | Month | Number of days
+Name | Note | Day | Month | Number of days
 ---------
-Rosh Hashana
-Yom Kippur
-Sukkot
-Hanukkah | 25 | Kislev (8) | 8
-Passover
+Rosh Hashana | Jewish New Year | 1 | Tishrei | 2
+Yom Kippur | Day of Atonement | 10 | Tishrei | 1
+Sukkot | Feast of Tabernacles | 15 ¥ Tishrei | 7 
+Shmini Atzeret | Eighth Day of Assembly | 22 | Tishrei | 1
+Simchat Torah | | 23 | Tishrei | 1
+Hanukkah | Chanukah | 25 | Kislev (8) | 8
+Purim | | 14 | Adar II | 1
+Pesach | Passover | 15 | Nisan | 9
+Shavuot | Festival of Weeks | | 6 | Sivan | 2
+Tish'a B'Av | | 9 | Av | 1
 =end table
 
 =head2 Data sources
